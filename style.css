@@ -1,0 +1,227 @@
+p
+{
+  -webkit-margin-before: 1px;
+	-webkit-margin-after: 1px;
+}
+
+#table_input
+{
+	font-size:13px;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#table_input tr
+{
+	height:25px;
+}
+
+#table_results
+{
+	width:440px;
+}
+
+#table_results tr
+{
+	height:20px;
+}
+
+#wrapper
+{
+	margin-left:75px;
+	width:450px;
+	background-color:#71C1F6;
+	font-size: 13px;
+	font-family: Arial sans-serif;
+	line-height: 16px;
+	padding: 15px 15px 5px 25px;
+	letter-spacing:0px;	
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+}
+
+#help_gross_wage
+{
+	background: transparent url("http://sk.salarycheck.wageindicator.org/salarycheck_static/what_is_over.png") no-repeat center left;
+	width: 13px;
+	height: 13px;
+}
+
+.help_message
+{
+	position:absolute;
+	background-color: #FF9913;
+	left:120px;
+	width:300px;
+	z-index:2;
+	line-height:20px;
+}
+
+.help_message p
+{
+	padding: 5px;
+	margin:0px;
+}
+
+.help
+{
+	left: -10px;
+	position: relative;
+	float:left;
+	top: 2px;
+}
+
+div.help
+{
+	display: block;
+	height: 13px;
+	width: 13px;
+	background-image: url("http://nl.salarycheck.wageindicator.org/salarycheck_static/what_is.png");
+	background-repeat: no-repeat;
+}
+
+div.help:hover
+{
+	background-image: url("http://nl.salarycheck.wageindicator.org/salarycheck_static/what_is_over.png");
+	background-repeat: no-repeat;
+}
+
+div.help_result
+{
+	display: block;
+	height: 13px;
+	width: 13px;
+	background-image: url("http://nl.salarycheck.wageindicator.org/salarycheck_static/what_is.png");
+	background-repeat: no-repeat;
+}
+
+div.help_result:hover
+{
+	background-image: url("http://nl.salarycheck.wageindicator.org/salarycheck_static/what_is_over.png");
+	background-repeat: no-repeat;
+}
+
+.help_result
+{
+	position: relative;
+	float:left;	
+	left: 0px;
+}
+
+.help_cell
+{
+	background-color:#71C1F6;
+	width:15px;
+}
+
+.input
+{
+	width: 105px;
+	height: 20px;
+	border: none;
+}
+
+
+#span_children_ZTP
+{
+	text-decoration:italic;
+	text-intend:10px;
+}
+
+#submit_div
+{
+	height:50px;
+}
+
+#submit_button
+{
+	width:100px;
+	background-image:url("http://nl.salarycheck.wageindicator.org/salarycheck_static/button_bg.png");
+	color:white;
+	border:none;
+	height:25px;
+	margin-left: 160px;
+	margin-top: 15px;	
+	font-weight:bold;
+}
+
+#submit_button:hover
+{
+	width:100px;
+	background-image:url("http://nl.salarycheck.wageindicator.org/salarycheck_static/button_bg_over.png");
+}
+
+#result
+{
+	font-size:16px;
+	background-color:#FF8000;
+	font-weight:bold;
+}
+
+th
+{
+	font-size:15px;
+}
+
+.section_title
+{
+	font-size:13px;
+	font-weight:bold;
+	line-height: 16px;
+	background-color:#D0EBFC;
+}
+
+.section_total
+{
+	font-size:13px;
+	font-weight:bold;
+	font-style:italic;
+	border-top:solid 1px black;
+}
+
+.section_text
+{
+	font-size:13px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.subsection_title
+{
+	font-size:13px;
+}
+
+.subsection_text
+{
+	font-size:13px;
+	font-style:italic;
+	text-indent:8px;
+}
+
+#footer
+{
+	margin-top: 15px;
+	text-align: right;
+	font-size: 12px;
+	color: white;
+}
+
+.currency
+{
+	left: -11px;
+	float: right;
+	position: relative;
+	top: 3px;
+	color: #505050;
+}
+
+.alert
+{
+	background-color: #FF9913;
+	text-align: center;
